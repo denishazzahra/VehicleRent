@@ -39,15 +39,18 @@ public class LoginView extends javax.swing.JFrame {
         setTitle("Login");
 
         jLabel1.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(53, 24, 90));
         jLabel1.setText("LOGIN");
 
         jLabel2.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(53, 24, 90));
         jLabel2.setText("Username");
 
         tfusername.setFont(new java.awt.Font("Century Gothic", 0, 12)); // NOI18N
         tfusername.setForeground(new java.awt.Color(53, 24, 90));
 
         jLabel3.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(53, 24, 90));
         jLabel3.setText("Password");
 
         tfpassword.setForeground(new java.awt.Color(53, 24, 90));

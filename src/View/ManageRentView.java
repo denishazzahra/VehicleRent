@@ -34,6 +34,7 @@ public class ManageRentView extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Manage Rent");
 
         btnbike.setBackground(new java.awt.Color(53, 24, 90));
         btnbike.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
@@ -57,6 +58,7 @@ public class ManageRentView extends javax.swing.JFrame {
         });
 
         jLabel1.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(53, 24, 90));
         jLabel1.setText("Manage Rent");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

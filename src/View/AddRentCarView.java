@@ -53,6 +53,7 @@ public class AddRentCarView extends javax.swing.JFrame {
         rb24h = new javax.swing.JRadioButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Add Rent (Car)");
 
         btnback.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
         btnback.setForeground(new java.awt.Color(53, 24, 90));
@@ -66,6 +67,7 @@ public class AddRentCarView extends javax.swing.JFrame {
         });
 
         jLabel1.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(53, 24, 90));
         jLabel1.setText("Car Rent");
 
         duration.add(rbother);
@@ -119,9 +121,11 @@ public class AddRentCarView extends javax.swing.JFrame {
         jLabel10.setText("days");
 
         jLabel6.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(53, 24, 90));
         jLabel6.setText("ID");
 
         jLabel9.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(53, 24, 90));
         jLabel9.setText("Cost");
 
         tfid.setFont(new java.awt.Font("Century Gothic", 0, 12)); // NOI18N
@@ -129,6 +133,7 @@ public class AddRentCarView extends javax.swing.JFrame {
         tfid.setEnabled(false);
 
         lcost.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        lcost.setForeground(new java.awt.Color(53, 24, 90));
         lcost.setText("0");
 
         tfname.setFont(new java.awt.Font("Century Gothic", 0, 12)); // NOI18N
@@ -140,9 +145,11 @@ public class AddRentCarView extends javax.swing.JFrame {
         btnrent.setText("RENT");
 
         jLabel7.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(53, 24, 90));
         jLabel7.setText("Name");
 
         jLabel8.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(53, 24, 90));
         jLabel8.setText("Duration");
 
         duration.add(rb6h);

@@ -54,10 +54,12 @@ public class BikesView extends javax.swing.JFrame {
         tfid = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Bikes");
 
         srentcost.setFont(new java.awt.Font("Century Gothic", 0, 12)); // NOI18N
 
         jLabel1.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(53, 24, 90));
         jLabel1.setText("Bikes");
 
         tablebike.setFont(new java.awt.Font("Century Gothic", 0, 14)); // NOI18N
@@ -126,6 +128,7 @@ public class BikesView extends javax.swing.JFrame {
         });
 
         jLabel2.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(53, 24, 90));
         jLabel2.setText("Brand");
 
         btndelete.setBackground(new java.awt.Color(53, 24, 90));
@@ -139,6 +142,7 @@ public class BikesView extends javax.swing.JFrame {
         });
 
         jLabel3.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(53, 24, 90));
         jLabel3.setText("Type");
 
         btnback.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
@@ -156,18 +160,21 @@ public class BikesView extends javax.swing.JFrame {
         tftype.setForeground(new java.awt.Color(53, 24, 90));
 
         jLabel4.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(53, 24, 90));
         jLabel4.setText("License number");
 
         tflicense.setFont(new java.awt.Font("Century Gothic", 0, 12)); // NOI18N
         tflicense.setForeground(new java.awt.Color(53, 24, 90));
 
         jLabel5.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(53, 24, 90));
         jLabel5.setText("Rent cost (1h)");
 
         cbbrands.setFont(new java.awt.Font("Century Gothic", 0, 12)); // NOI18N
         cbbrands.setForeground(new java.awt.Color(53, 24, 90));
 
         jLabel6.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(53, 24, 90));
         jLabel6.setText("ID");
 
         tfid.setFont(new java.awt.Font("Century Gothic", 0, 12)); // NOI18N

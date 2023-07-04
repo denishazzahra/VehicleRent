@@ -60,6 +60,7 @@ public class DashboardView extends javax.swing.JFrame {
         btnlogout.setContentAreaFilled(false);
 
         jLabel1.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(53, 24, 90));
         jLabel1.setText("Menu");
 
         btnmanagerent.setBackground(new java.awt.Color(53, 24, 90));

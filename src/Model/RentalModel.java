@@ -80,9 +80,12 @@ public class RentalModel extends Connector implements CalculateInterface {
     }
     public void deleteData(int id){
         try{
-            String query="DELETE from vehicles WHERE id='"+id+"'";
+            String query="SET FOREIGN_KEY_CHECKS=0;";
             statement=connection.createStatement();
             statement.executeUpdate(query);
+            String query1="DELETE from vehicles WHERE id='"+id+"'";
+            statement=connection.createStatement();
+            statement.executeUpdate(query1);
             JOptionPane.showMessageDialog(null,"Data deleted successfully!");
         }catch(Exception e){
             JOptionPane.showMessageDialog(null,e.getMessage());

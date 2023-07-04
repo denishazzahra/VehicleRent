@@ -31,8 +31,10 @@ public class AddRentView extends javax.swing.JFrame {
         btnback = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Add Rent");
 
         jLabel1.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(53, 24, 90));
         jLabel1.setText("Add Rent");
 
         btnbike.setBackground(new java.awt.Color(53, 24, 90));

@@ -35,6 +35,7 @@ public class ManageRentBikeView extends javax.swing.JFrame {
         btnexport = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Manage Rent (Bike)");
 
         tablebike.setFont(new java.awt.Font("Century Gothic", 0, 14)); // NOI18N
         tablebike.setForeground(new java.awt.Color(53, 24, 90));
@@ -91,6 +92,7 @@ public class ManageRentBikeView extends javax.swing.JFrame {
         });
 
         jLabel1.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(53, 24, 90));
         jLabel1.setText("Manage Bike Rent");
 
         btnexport.setBackground(new java.awt.Color(53, 24, 90));
