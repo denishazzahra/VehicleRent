@@ -1,0 +1,5 @@
+id, brand, type, license, cost_per_hour, available
+4, Toyota, Avanza, AB888KK, 10000, Yes
+7, Suzuki, Ertiga, Ab567SS, 12000, No
+8, Hyundai, Creta, D66XYZ, 12000, Yes
+9, Daihatsu, Ayla, F9213GH, 11000, No

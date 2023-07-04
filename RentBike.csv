@@ -1,0 +1,5 @@
+id, renter, brand, type, license, rent_from, rent_due, return_date, cost, fine
+1, Sani, Honda, Beat, A1165BC, 2023-07-04 14:56:42, 2023-07-05 14:56:42, 2023-07-04 14:57:01, 60000, 0
+2, Denisha, Honda, Scoopy, A1234XY, 2023-07-04 14:59:34, 2023-07-04 20:59:34, 2023-07-04 15:00:13, 18000, 0
+3, Timot, Kawasaki, Ninja, B112TK, 2023-07-04 15:00:54, 2023-07-06 15:00:54, 2023-07-04 15:01:09, 336000, 0
+4, Nadya, Vespa, Sprint, D553Z, 2023-07-04 15:02:15, 2023-07-04 21:02:15, null, 33000, 0
