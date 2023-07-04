@@ -1,4 +1,0 @@
-id, renter, brand, type, license, rent_from, rent_due, return_date, cost, fine
-5, Denisha, Suzuki, Ertiga, Ab567SS, 2023-07-04 15:31:36, 2023-07-06 15:31:36, null, 576000, 0
-6, Timot, Hyundai, Creta, D66XYZ, 2023-07-04 15:31:47, 2023-07-05 03:31:47, 2023-07-04 15:32:24, 144000, 0
-7, Sani, Daihatsu, Ayla, F9213GH, 2023-07-04 15:31:59, 2023-07-07 15:31:59, null, 792000, 0
