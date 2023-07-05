@@ -9,5 +9,6 @@ How to run the program
 2. turn your xampp on
 3. make a database named "rental_db" in mysql
 4. import "rental_db.sql" to the database
-5. run the file
-6. when you export the data to csv, the csv file would be in the same directory as this readme file
+5. import the mysql connector jar file to the library
+6. run the file
+7. when you export the data to csv, the csv file would be in the same directory as this readme file
