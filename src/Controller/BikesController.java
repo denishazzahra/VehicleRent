@@ -55,7 +55,7 @@ public class BikesController {
             @Override
             public void actionPerformed(ActionEvent e) {
                 getData();
-                if(!(v.getBrand().equals("")||v.getType().equals("")||v.getLicense().equals(""))){
+                if(!(v.getBrand().equals("null")||v.getType().equals("")||v.getLicense().equals(""))){
                     RM.addVehicle(v, "Bike");
                     showBikes();
                     BV.resetForm();
